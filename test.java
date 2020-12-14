@@ -54,6 +54,11 @@ public class MainProgram {
         	System.out.println("[Student ID: " + studentID + "]");
         	hw_1815542();
         }
+        
+        else if(studentID == 1815595) {
+        	System.out.println("[Student ID: " + studentID + "]");
+        	hw_1815595();
+        }       
 
         else{
             System.out.println("To be developed...\n");
@@ -181,6 +186,9 @@ public class MainProgram {
     	return;
     }
 
+    public void hw_1815595(){
+    	//TODO
+    }
     public int max(int a,int b){
         return (a>b)? a:b;
     }
@@ -300,19 +308,19 @@ public void func_1814998(){
         
         if(menu == 1) {
         	System.out.println("[Calculate Triangle Area]");
-        	System.out.print("Enter base(¹Øº¯): ");
+        	System.out.print("Enter base(쨔횠쨘짱): ");
         	a = sc.nextInt();
-        	System.out.print("Enter height(³ôÀÌ): ");
+        	System.out.print("Enter height(쨀척�횑): ");
         	b = sc.nextInt();
         	System.out.println("triangle Area : " + triangleArea(a, b));
         }
         else if(menu == 2) {
         	System.out.println("[Calculate Trapezoid Area]");
-        	System.out.print("Enter base1(À­º¯): ");
+        	System.out.print("Enter base1(�짯쨘짱): ");
         	a = sc.nextInt();
-        	System.out.print("Enter base2(¹Øº¯): ");
+        	System.out.print("Enter base2(쨔횠쨘짱): ");
         	b = sc.nextInt();
-        	System.out.print("Enter height(³ôÀÌ): ");
+        	System.out.print("Enter height(쨀척�횑): ");
         	c = sc.nextInt();
         	System.out.println("trapezoid Area : " + trapezoidArea(a, b, c));
         }
